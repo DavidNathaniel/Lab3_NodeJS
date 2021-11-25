@@ -8,9 +8,9 @@ app.set("view engine", "ejs");
 app.get("/contacts", (req, res) => {
   res.render("contacts");
 });
-app.get("/catalogue", (req, res) => {
-  res.render("catalogue");
-});
+//app.get("/api/catalogue", (req, res) => {
+// res.render("catalogue");
+//});
 app.get("/login", (req, res) => {
   res.render("login");
 });
